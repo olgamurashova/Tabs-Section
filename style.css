@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #EE81B3;
-    color: #610C63;
+    background-color: lightgrey;
+    color: black;
 }
 
 img {
     display: block;
-    width: 50%;
+    width: 100%;
     border-radius: 0.5rem;
     object-fit: cover;
     height: 50rem;
@@ -33,6 +33,7 @@ img {
     border: none;
     font-size: 1rem;
     background-color: #810955;
+    color: white;
     cursor: pointer;
     transition: all .3s linear;
     letter-spacing: .25rem;
@@ -48,4 +49,26 @@ img {
 }
 .button:nth-child(3){
     border-top-right-radius: .5rem;
+}
+
+.button:hover {
+    background-color: #EE81B3;
+    color: #610C63;
+}
+
+.tabs-content {
+    padding: 2rem 1.5rem;
+
+}
+
+@media (min-width:992px) {
+    .image {
+        margin-bottom: 0;
+    }
+    .section-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+
+    }
 }
