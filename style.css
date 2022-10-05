@@ -11,7 +11,7 @@ img {
     border-radius: 0.5rem;
     object-fit: cover;
     height: 50rem;
-    margin: 2rem;
+   
 }
 
 .image {
@@ -75,4 +75,18 @@ img {
         column-gap: 2rem;
 
     }
+}
+
+.content {
+    display: none;
+
+}
+
+.content.live {
+    display: block;
+}
+
+.button.live {
+    background: #FFF9D7;
+    color: #610C63;
 }
